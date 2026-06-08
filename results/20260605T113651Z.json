@@ -1,0 +1,168 @@
+{
+  "run_id": "20260605T113651Z",
+  "timestamp": "2026-06-05T11:37:06.064875Z",
+  "results": {
+    "greenlee": {
+      "ammeter_type": "greenlee",
+      "port": 5000,
+      "command": "MEASURE_GREENLEE -get_measurement",
+      "measurements": [
+        {
+          "index": 1,
+          "raw_response": "0.30762691637534084",
+          "value": 0.30762691637534084
+        },
+        {
+          "index": 2,
+          "raw_response": "0.07709752637182277",
+          "value": 0.07709752637182277
+        },
+        {
+          "index": 3,
+          "raw_response": "0.04065140260551734",
+          "value": 0.04065140260551734
+        },
+        {
+          "index": 4,
+          "raw_response": "1.2611741015509836",
+          "value": 1.2611741015509836
+        },
+        {
+          "index": 5,
+          "raw_response": "0.06086338601235326",
+          "value": 0.06086338601235326
+        }
+      ],
+      "measurement": 0.06086338601235326,
+      "unit": "A",
+      "status": "ok",
+      "raw_response": "0.06086338601235326",
+      "analysis": {
+        "count": 5,
+        "mean": 0.3494826665832036,
+        "median": 0.07709752637182277,
+        "standard_deviation": 0.5210097599264185,
+        "minimum": 0.04065140260551734,
+        "maximum": 1.2611741015509836
+      },
+      "consistency": {
+        "stable": false,
+        "range": 1.2205226989454663,
+        "coefficient_of_variation": 1.4908028630437908,
+        "trend": "decreasing",
+        "remarks": "unstable"
+      },
+      "visualization": {
+        "plot_file": "C:\\Users\\aviga\\Downloads\\PyTest_QA_updates\\Test_QA_expanded\\reports\\greenlee_measurements.png"
+      }
+    },
+    "entes": {
+      "ammeter_type": "entes",
+      "port": 5001,
+      "command": "MEASURE_ENTES -get_data",
+      "measurements": [
+        {
+          "index": 1,
+          "raw_response": "138.04854933794712",
+          "value": 138.04854933794712
+        },
+        {
+          "index": 2,
+          "raw_response": "45.14675812403984",
+          "value": 45.14675812403984
+        },
+        {
+          "index": 3,
+          "raw_response": "36.79045140926938",
+          "value": 36.79045140926938
+        },
+        {
+          "index": 4,
+          "raw_response": "58.76768620775861",
+          "value": 58.76768620775861
+        },
+        {
+          "index": 5,
+          "raw_response": "11.415485656424886",
+          "value": 11.415485656424886
+        }
+      ],
+      "measurement": 11.415485656424886,
+      "unit": "A",
+      "status": "ok",
+      "raw_response": "11.415485656424886",
+      "analysis": {
+        "count": 5,
+        "mean": 58.033786147087966,
+        "median": 45.14675812403984,
+        "standard_deviation": 47.94142686778293,
+        "minimum": 11.415485656424886,
+        "maximum": 138.04854933794712
+      },
+      "consistency": {
+        "stable": false,
+        "range": 126.63306368152223,
+        "coefficient_of_variation": 0.8260951085678656,
+        "trend": "decreasing",
+        "remarks": "unstable"
+      },
+      "visualization": {
+        "plot_file": "C:\\Users\\aviga\\Downloads\\PyTest_QA_updates\\Test_QA_expanded\\reports\\entes_measurements.png"
+      }
+    },
+    "circutor": {
+      "ammeter_type": "circutor",
+      "port": 5002,
+      "command": "MEASURE_CIRCUTOR -get_measurement",
+      "measurements": [
+        {
+          "index": 1,
+          "raw_response": "0.03251897191999765",
+          "value": 0.03251897191999765
+        },
+        {
+          "index": 2,
+          "raw_response": "0.03030427951604351",
+          "value": 0.03030427951604351
+        },
+        {
+          "index": 3,
+          "raw_response": "0.04763764222619642",
+          "value": 0.04763764222619642
+        },
+        {
+          "index": 4,
+          "raw_response": "0.01590911375836929",
+          "value": 0.01590911375836929
+        },
+        {
+          "index": 5,
+          "raw_response": "0.020125251498380965",
+          "value": 0.020125251498380965
+        }
+      ],
+      "measurement": 0.020125251498380965,
+      "unit": "A",
+      "status": "ok",
+      "raw_response": "0.020125251498380965",
+      "analysis": {
+        "count": 5,
+        "mean": 0.029299051783797565,
+        "median": 0.03030427951604351,
+        "standard_deviation": 0.012360535181503523,
+        "minimum": 0.01590911375836929,
+        "maximum": 0.04763764222619642
+      },
+      "consistency": {
+        "stable": false,
+        "range": 0.03172852846782713,
+        "coefficient_of_variation": 0.4218749218477754,
+        "trend": "decreasing",
+        "remarks": "unstable"
+      },
+      "visualization": {
+        "plot_file": "C:\\Users\\aviga\\Downloads\\PyTest_QA_updates\\Test_QA_expanded\\reports\\circutor_measurements.png"
+      }
+    }
+  }
+}
